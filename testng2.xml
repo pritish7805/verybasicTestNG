@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest">
+<parameter name="Id" value="874531"/>
+  <test name="RegressionTest">
+  <groups>
+  <run>
+  <include name="Smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="teststart.Test1"></class>
+     <class name="teststart.Test2"></class>
+    <class name="teststart.Test3"></class>
+  <class name="teststart.Test4"></class>    
+    </classes>
+  </test> 
+ </suite> 

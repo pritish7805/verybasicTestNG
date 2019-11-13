@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-04T22:54:15 MST" name="Suite" finished-at="2019-11-04T22:54:15 MST" duration-ms="58">
+    <groups>
+      <group name="Smoke">
+        <method signature="Test1.Demo1()[pri:0, instance:teststart.Test1@6da21078]" name="Demo1" class="teststart.Test1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2019-11-04T22:54:15 MST" name="Test" finished-at="2019-11-04T22:54:15 MST" duration-ms="58">
+      <class name="teststart.Test1">
+        <test-method signature="Demo1()[pri:0, instance:teststart.Test1@6da21078]" started-at="2019-11-04T22:54:15 MST" name="Demo1" finished-at="2019-11-04T22:54:15 MST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method signature="Demo2()[pri:0, instance:teststart.Test1@6da21078]" started-at="2019-11-04T22:54:15 MST" name="Demo2" finished-at="2019-11-04T22:54:15 MST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- teststart.Test1 -->
+      <class name="teststart.Test2">
+        <test-method is-config="true" signature="DemobeforeSuite()[pri:0, instance:teststart.Test2@f736069]" started-at="2019-11-04T22:54:14 MST" name="DemobeforeSuite" finished-at="2019-11-04T22:54:15 MST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemobeforeSuite -->
+        <test-method is-config="true" signature="Demobefore()[pri:0, instance:teststart.Test2@f736069]" started-at="2019-11-04T22:54:15 MST" name="Demobefore" finished-at="2019-11-04T22:54:15 MST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demobefore -->
+        <test-method signature="Demo3()[pri:0, instance:teststart.Test2@f736069]" started-at="2019-11-04T22:54:15 MST" name="Demo3" finished-at="2019-11-04T22:54:15 MST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+        <test-method is-config="true" signature="Demoafter()[pri:0, instance:teststart.Test2@f736069]" started-at="2019-11-04T22:54:15 MST" name="Demoafter" finished-at="2019-11-04T22:54:15 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demoafter -->
+        <test-method is-config="true" signature="DemoafterSuite()[pri:0, instance:teststart.Test2@f736069]" started-at="2019-11-04T22:54:15 MST" name="DemoafterSuite" finished-at="2019-11-04T22:54:15 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoafterSuite -->
+      </class> <!-- teststart.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

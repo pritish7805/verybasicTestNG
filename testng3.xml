@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest" parallel="tests" thread-count="5">
+
+<parameter name="Id" value="874531"/>
+<parameter name="Password" value="Syntel12"/>
+<listeners>
+<listener class-name="teststart.Listeners"/>
+</listeners>
+  <test name="RegressionTest" parallel="classes" thread-count="5">
+    <classes>
+      <class name="teststart.Test1"></class>
+     <class name="teststart.Test2"></class>
+   
+    </classes>
+  </test> 
+  
+    <test name="FunctionalTest">
+    <classes>
+
+    <class name="teststart.Test3"></class>
+  <class name="teststart.Test4"></class>    
+    </classes>
+  </test>
+ </suite> 

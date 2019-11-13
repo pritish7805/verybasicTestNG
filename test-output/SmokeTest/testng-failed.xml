@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SmokeTest]" guice-stage="DEVELOPMENT">
+  <parameter name="Id" value="874531"/>
+  <parameter name="Password" value="Syntel12"/>
+  <listeners>
+    <listener class-name="teststart.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="FUnctionalTest(failed)">
+    <classes>
+      <class name="teststart.Test3">
+        <methods>
+          <include name="Demo7"/>
+          <include name="Demo4"/>
+        </methods>
+      </class> <!-- teststart.Test3 -->
+    </classes>
+  </test> <!-- FUnctionalTest(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->
